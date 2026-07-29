@@ -135,3 +135,32 @@ button:hover{
     color:#0D3B66;
     font-weight:600;
 }
+.tutorial{
+
+width:100%;
+
+max-width:600px;
+
+display:block;
+
+margin:40px auto;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+.voltar{
+
+display:inline-block;
+
+margin-bottom:20px;
+
+color:white;
+
+font-weight:600;
+
+text-decoration:none;
+
+}
