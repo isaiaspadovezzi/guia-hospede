@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Wi-Fi</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<a href="index.html" class="voltar">← Início</a>
+
+<img src="img/logo-ibisstyles.png" class="logo">
+
+<h1>Wi-Fi</h1>
+
+<p>Conecte-se à internet do hotel.</p>
+
+</header>
+
+<div class="container">
+
+<img src="img/wifi-capa.png" class="tutorial">
+
+<img src="img/wifi-passo1.png" class="tutorial">
+
+<img src="img/wifi-passo2.png" class="tutorial">
+
+<img src="img/wifi-passo3.png" class="tutorial">
+
+</div>
+
+</body>
+
+</html>
