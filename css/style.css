@@ -90,3 +90,48 @@ text-align:center;
 padding:20px;
 
 }
+
+.info-card{
+    background:#fff;
+    padding:25px;
+    border-radius:18px;
+    margin-bottom:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.info-card h2{
+    margin-bottom:10px;
+}
+
+.info-card p{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+button{
+    background:#0D3B66;
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+.qrcode{
+    width:180px;
+    display:block;
+    margin:auto;
+}
+
+.voltar{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    color:#0D3B66;
+    font-weight:600;
+}
