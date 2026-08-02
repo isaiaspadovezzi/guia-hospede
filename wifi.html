@@ -1,17 +1,47 @@
-<div class="galeria">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi - Guia do Hóspede</title>
 
-    <img src="img/wifi-passo1.png" onclick="abrirImagem(this.src)">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <img src="img/wifi-passo2.png" onclick="abrirImagem(this.src)">
+<body>
 
-    <img src="img/wifi-passo3.png" onclick="abrirImagem(this.src)">
+<header>
+
+<a href="index.html" class="voltar">← Início</a>
+
+<img src="img/logo-ibisstyles.png" class="logo">
+
+<h1>Como conectar ao Wi-Fi</h1>
+
+<p>Clique em uma imagem para ampliar.</p>
+
+</header>
+
+<div class="container">
+
+    <div class="galeria">
+
+        <img src="img/wifi-passo1.png" onclick="abrirImagem(this.src)" alt="Passo 1">
+
+        <img src="img/wifi-passo2.png" onclick="abrirImagem(this.src)" alt="Passo 2">
+
+        <img src="img/wifi-passo3.png" onclick="abrirImagem(this.src)" alt="Passo 3">
+
+    </div>
 
 </div>
 
 <div id="lightbox" onclick="fecharImagem()">
-
     <span>&times;</span>
-
-    <img id="imagemGrande">
-
+    <img id="imagemGrande" alt="Imagem ampliada">
 </div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
