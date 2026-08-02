@@ -43,4 +43,16 @@ mostrar();
 
 }
 
+function abrirImagem(src){
+
+document.getElementById("lightbox").style.display="flex";
+
+document.getElementById("imagemGrande").src=src;
+
+}
+
+function fecharImagem(){
+
+document.getElementById("lightbox").style.display="none";
+
 }
