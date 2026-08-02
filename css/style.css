@@ -19,10 +19,11 @@ body{
 ========================== */
 
 header{
+    position:relative;
     background:#0D3B66;
     color:#fff;
     text-align:center;
-    padding:40px 20px;
+    padding:50px 20px;
 }
 
 .logo{
@@ -147,20 +148,29 @@ button:hover{
    LINK VOLTAR
 ========================== */
 
-.voltar{
+.btn-voltar{
+    position:absolute;
+    top:20px;
+    left:20px;
 
-    display:inline-block;
+    background:rgba(255,255,255,.15);
+    color:#fff;
 
-    margin-bottom:25px;
+    padding:10px 16px;
 
-    color:white;
+    border-radius:30px;
 
     text-decoration:none;
-
     font-weight:600;
 
+    backdrop-filter:blur(8px);
+
+    transition:.3s;
 }
 
+.btn-voltar:hover{
+    background:rgba(255,255,255,.25);
+}
 /* ==========================
    GALERIA WIFI
 ========================== */
